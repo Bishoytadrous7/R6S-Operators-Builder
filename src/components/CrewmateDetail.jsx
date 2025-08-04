@@ -35,9 +35,6 @@ const CrewmateDetail = () => {
       <p><strong>Role:</strong> {operator.role}</p>
       <p><strong>Weapon:</strong> {operator.weapon}</p>
       <p><strong>Speed:</strong> {operator.speed}</p>
-
-      
-      {/* ✅ Link to edit form */}
       <Link to={`/edit/${id}`}>
         <button className="betButton">Edit this Operator</button>
       </Link>
