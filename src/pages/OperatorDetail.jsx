@@ -28,9 +28,6 @@ const OperatorDetail = () => {
       <p>Role: {operator.role}</p>
       <p>Weapon: {operator.weapon}</p>
       <p>Speed: {operator.speed}</p>
-
-      {/* Add extra info here if available (e.g. country, gadget, etc.) */}
-
       <Link to={`/edit/${id}`}>
         <button>Edit This Operator</button>
       </Link>
