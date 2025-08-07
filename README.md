@@ -1,81 +1,58 @@
-# Web Development Project 7 - *Rainbow Six Seige Operators Builder*
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?logo=javascript&logoColor=black)
+![Supabase](https://img.shields.io/badge/supabase-3FCF8E.svg?logo=supabase&logoColor=white)
 
-Submitted by: **Bishoy Tadrous**
+# 🛡️ Rainbow Six Siege Operators Builder 
 
-This web app: **Allows users to create, view, edit, and delete Rainbow Six Siege operators with custom attributes. It also includes a dashboard of summary statistics.**
+**Rainbow Six Siege Operators Builder** is a full-stack web app that allows users to create, view, edit, and delete custom Rainbow Six Siege operators with unique attributes and categories. Users can manage their through a summary dashboard, explore detailed operator pages, and view statistics of all the operators created.
 
-Time spent: **8** hours spent in total
+---
 
-## Required Features
+## 🎥 Demo
 
-The following **required** functionality is completed:
+![Demo](src/assets/R6S.gif)  
+🔗 [View Full GIF on Imgur](https://i.imgur.com/ZPtohXa.gif)
 
+---
 
-- [x] **The web app contains a page that features a create form to add a new crewmate**
-  - Users can name the crewmate
-  - Users can set the crewmate’s attributes by clicking on one of several values
-- [x] **The web app includes a summary page of all the user’s added crewmatese**
-  -  The web app contains a summary page dedicated to displaying all the crewmates the user has made so far
-  -  The summary page is sorted by creation date such that the most recently created crewmates appear at the top
-- [x] **A previously created crewmate can be updated from the list of crewmates in the summary page**
-  - Each crewmate has an edit button that will take users to an update form for the relevant crewmate
-  - Users can see the current attributes of their crewmate on the update form
-  - After editing the crewmate's attribute values using the form, the user can immediately see those changes reflected in the update form and on the summary page 
-- [x] **A previously created crewmate can be deleted from the crewmate list**
-  - Using the edit form detailed in the previous _crewmates can be updated_ feature, there is a button that allows users to delete that crewmate
-  - After deleting a crewmate, the crewmate should no longer be visible in the summary page
-  - [x] **Each crewmate has a direct, unique URL link to an info page about them**
-    - Clicking on a crewmate in the summary page navigates to a detail page for that crewmate
-    - The detail page contains extra information about the crewmate not included in the summary page
-    - Users can navigate to to the edit form from the detail page
+## 🚀 Features
 
-The following **optional** features are implemented:
+- ✅ **Create Custom Operators**
+  - Users can assign a name and select attributes
 
-- [x] A crewmate can be given a category upon creation which restricts their attribute value options
-  - e.g., a Dungeons and Dragons class or a development team role (project manager, product owner, etc.)
-  - User can choose a `category` option to describe their crewmate before any attributes are specified
-  - Based on the category value, users are allowed to access only a subset of the possible attributes
-- [x] A section of the summary page, displays summary statistics about a user’s crew on their crew page
-  - e.g., the percent of members with a certain attribute 
-- [ ] The summary page displays a custom “success” metric about a user’s crew which changes the look of the crewmate list
-  - e.g., a pirate crew’s predicted success at commandeering a new galley
+- ✅ **Summary Page**
+  - Displays all created operators
+  - Each operator links to their own detail page
 
+- ✅ **Edit & Delete Operators**
+  - Operators can be updated through an edit form
+  - Attribute values are pre-filled and updated in real-time
+  - Operators can be deleted directly from the edit view
 
-The following **additional** features are implemented:
+- ✅ **Operator Detail Pages**
+  - Each operator has a unique URL
+  - Detail pages include additional information not shown on the summary page
+  - Users can navigate to the edit form from this page
 
-* [ ] List anything else that you added to improve the site's functionality!
+- ✅ **Summary Statistics**
+  - Displays operators created statistics (e.g., percentage of users using shotguns)
 
-## Video Walkthrough
+---
 
-Here's a walkthrough of implemented user stories:
+## 🛠️ Built With
 
-<img src='https://i.imgur.com/ZPtohXa.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-https://i.imgur.com/ZPtohXa.gif
-https://imgur.com/a/BenaSBT
+- **React** 
+- **JavaScript**
+- **HTML & CSS**
+- **Supabase**
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with Kap
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+---
 
-## Notes
+## 🙋‍♂️ About Me
 
-Describe any challenges encountered while building the app.
+I'm a Computer Science student passionate about web development, soccer, and creating engaging web apps.
 
-## License
+Check out more of my work: [https://github.com/Bishoytadrous7](https://github.com/Bishoytadrous7)
 
-    Copyright [yyyy] [name of copyright owner]
+---
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
